@@ -1,0 +1,21 @@
+{
+  "name": "file-organizer",
+  "version": "1.0.0",
+  "description": "CLI tool to analyze and organize files in a directory",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node file-organizer",
+    "dev": "nodemon file-organizer",
+    "scan": "node file-organizer.js scan",
+    "duplicates": "node file-organizer.js duplicates",
+    "organize": "node file-organizer.js organize",
+    "cleanup": "node file-organizer.js cleanup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
